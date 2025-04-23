@@ -95,9 +95,7 @@ nav a:hover {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: #f4f4f4;
-	color:#000;
-	border: #000 1px solid;
+	border: #f4f4f4 1px solid;
 	border-radius: 5px;
 	padding: 1rem;
 	margin: 1rem;
@@ -118,9 +116,7 @@ nav a:hover {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: #f4f4f4;
-	color:#000;
-	border: #000 1px solid;
+	border: #f4f4f4 1px solid;
 	border-radius: 5px;
 	padding: 1rem;
 	margin: 1rem;
