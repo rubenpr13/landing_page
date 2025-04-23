@@ -42,7 +42,6 @@ nav {
 	margin-top: 2rem;
 }
 
-
 nav a {
 	text-decoration: none;
 	color: #b4b4b4;
@@ -82,25 +81,29 @@ nav a:hover {
 	margin: 2rem 40rem;
 }
 
-#services {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row;
-	flex-wrap: nowrap;
+#services-carousel {
+	overflow: auto;
+	scroll-snap-type: x mandatory;
+	-webkit-overflow-scrolling: touch;;
 }
 
-#services article{
+.carousel-track {
+	display: flex;
+	gap: 1rem;
+	padding: 1rem;
+}
+
+.carousel-track article{
+	min-width: auto;
+	flex: 0 0 auto;
+	border-radius: #f4f4f4;
+	padding: 1.5rem;
+	scroll-snap-align: start;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	border: #f4f4f4 1px solid;
-	border-radius: 5px;
-	padding: 1rem;
-	margin: 1rem;
-	width: 25rem;
-	height: auto;
+	width: 30rem;
 }
 
 #prices {
@@ -120,6 +123,6 @@ nav a:hover {
 	border-radius: 5px;
 	padding: 1rem;
 	margin: 1rem;
-	width: 25rem;
-	height: auto;
+	width: 60rem;
+	height: 30rem;
 }
